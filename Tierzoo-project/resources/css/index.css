@@ -1,0 +1,235 @@
+@font-face {
+    font-family: 'Press Start 2P', cursive;
+    src: url();
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+    background-color: black;
+    font-family: "Press Start 2P";
+    margin-top: 8px;
+}
+
+#about{
+    color:white;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+
+}
+
+#game{
+    color:white;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}
+
+#title{
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h2{
+    color:white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#portrait{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 40px;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 200px; 
+    max-height: 200px;
+    border: 2px solid white;
+    margin-top: 0px;
+    object-fit: cover;
+}
+
+.slidercontainer{
+    margin: auto;
+    width: 1442px;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.slider{
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0px;
+    width: 200px;
+    height: 35px; 
+    background: black;
+    border: 1px solid white;
+    transform: rotate(270deg);
+
+}
+
+#intelligence_slider{
+    margin-left: 0px;
+}
+
+.values{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 125px;
+    padding-bottom: 10px;
+}
+
+/* Color stuff */
+/* ================================================================= */
+#intelligence_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 34px;
+    height: 34px;
+    background: white;
+    cursor: pointer;
+}
+  
+#intelligence_slider::-moz-range-thumb {
+    width: 34px;
+    height: 34px;
+    background: white;
+    cursor: pointer;
+}
+
+#power_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 34px;
+    height: 34px;
+    background: #eb7d07;
+    cursor: pointer;
+}
+  
+#power_slider::-moz-range-thumb {
+    width: 34px;
+    height: 34px;
+    background: #eb7d07;
+    cursor: pointer;
+}
+
+#defense_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 34px;
+    height: 34px;
+    background: #5d96e9;
+    cursor: pointer;
+}
+  
+#defense_slider::-moz-range-thumb {
+    width: 34px;
+    height: 34px;
+    background: #5d96e9;
+    cursor: pointer;
+}
+
+#mobility_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 34px;
+    height: 34px;
+    background: #6acd39;
+    cursor: pointer;
+}
+  
+#mobility_slider::-moz-range-thumb {
+    width: 34px;
+    height: 34px;
+    background: #6acd39;
+    cursor: pointer;
+}
+
+#health_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 34px;
+    height: 34px;
+    background: #a11618;
+    cursor: pointer;
+}
+  
+#health_slider::-moz-range-thumb {
+    width: 34px;
+    height: 34px;
+    background: #a11618;
+    cursor: pointer;
+}
+
+#stealth_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 34px;
+    height: 34px;
+    background: #687595;
+    cursor: pointer;
+}
+  
+#stealth_slider::-moz-range-thumb {
+    width: 34px;
+    height: 34px;
+    background: #687595;
+    cursor: pointer;
+}
+
+#int{
+    color:white;
+    padding-bottom: 5px;
+}
+
+#pow{
+    color:#eb7d07;
+    padding-bottom: 5px;
+}
+
+#def{
+    color:#5d96e9;
+    padding-bottom: 5px;
+}
+
+#mob{
+    color:#6acd39;
+    padding-bottom: 5px;
+}
+
+#health{
+    color:#a11618;
+    padding-bottom: 5px;
+}
+
+#stealth{
+    color:#687595;
+    padding-bottom: 5px;
+}
+/* ================================================================= */

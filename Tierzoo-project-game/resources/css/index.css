@@ -1,0 +1,264 @@
+@font-face {
+    font-family: 'Press Start 2P', cursive;
+    src: url();
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+body{
+    background-color: black;
+    font-family: "Press Start 2P";
+    margin-top: 20px
+}
+
+.chooser{
+    display:inline;
+}
+
+#back{
+    color:white;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+
+}
+
+#link{
+    color:white;
+}
+
+p{
+    color:white;
+    max-width: 50%;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 25%;
+}
+
+#title{
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wanted{
+    margin-top: 15px;
+}
+
+#portrait{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 40px;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 200px; 
+    max-height: 200px;
+    border: 2px solid white;
+    margin-top: 10px;
+    object-fit: cover;
+
+}
+
+#animal{
+    text-align: center;
+    font-size: 40px;
+    color:white;
+    margin-top: 10px;
+}
+
+.intcontainer{
+    display: inline;
+}
+
+#intelligence_slider{
+    display: inline;
+}
+/*
+.slidercontainer{
+    margin: auto;
+    float: left;
+    text-align: center;
+    margin-top: 110px;
+}
+*/
+.slider{
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0px;
+    width: 200px;
+    height: 35px; 
+    background: black;
+    border: 1px solid white;
+    
+
+}
+
+
+.values{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 125px;
+    padding-bottom: 10px;
+}
+
+
+/* Color stuff */
+/* ================================================================= */
+#intelligence_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 34px;
+    height: 34px;
+    background: white;
+    cursor: pointer;
+}
+  
+#intelligence_slider::-moz-range-thumb {
+    width: 34px;
+    height: 34px;
+    background: white;
+    cursor: pointer;
+}
+
+#power_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 34px;
+    height: 34px;
+    background: #eb7d07;
+    cursor: pointer;
+}
+  
+#power_slider::-moz-range-thumb {
+    width: 34px;
+    height: 34px;
+    background: #eb7d07;
+    cursor: pointer;
+}
+
+#defense_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 34px;
+    height: 34px;
+    background: #5d96e9;
+    cursor: pointer;
+}
+  
+#defense_slider::-moz-range-thumb {
+    width: 34px;
+    height: 34px;
+    background: #5d96e9;
+    cursor: pointer;
+}
+
+#mobility_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 34px;
+    height: 34px;
+    background: #6acd39;
+    cursor: pointer;
+}
+  
+#mobility_slider::-moz-range-thumb {
+    width: 34px;
+    height: 34px;
+    background: #6acd39;
+    cursor: pointer;
+}
+
+#health_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 34px;
+    height: 34px;
+    background: #a11618;
+    cursor: pointer;
+}
+  
+#health_slider::-moz-range-thumb {
+    width: 34px;
+    height: 34px;
+    background: #a11618;
+    cursor: pointer;
+}
+
+#stealth_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 34px;
+    height: 34px;
+    background: #687595;
+    cursor: pointer;
+}
+  
+#stealth_slider::-moz-range-thumb {
+    width: 34px;
+    height: 34px;
+    background: #687595;
+    cursor: pointer;
+}
+
+#int{
+    color:white;
+
+}
+
+#pow{
+    color:#eb7d07;
+
+}
+
+#def{
+    color:#5d96e9;
+
+}
+
+#mob{
+    color:#6acd39;
+
+}
+
+#health{
+    color:#a11618;
+
+}
+
+#stealth{
+    color:#687595;
+
+}
+/* ================================================================= */

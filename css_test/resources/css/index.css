@@ -1,0 +1,32 @@
+.yo{
+    
+    display: inline;
+    
+}
+
+.slider{
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0px;
+    width: 200px;
+    height: 35px; 
+    background: black;
+    border: 1px solid white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#intelligence_slider::-moz-range-thumb {
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    
+}
+
+#test{
+    margin: auto;
+    width: 50%;
+    font-size:80px;
+    text-align: center;
+}
+
