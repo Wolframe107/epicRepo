@@ -1,0 +1,11 @@
+Differences between C# and other languages:
+As when comparing every programming language there are of course a ton of small 
+differences that can be found. Like for example the way you write in console. 
+These changes however are the easiest to wrap your head around. One of the larger
+differences I found was the way you have to declare the type of the variable
+when creating the variable. Another one is the way you create lists. I like
+this way of writing code as it makes everything logically fit together and
+you get what it says on the tin. There are of course drawbacks, for example 
+that there is a lot more "fluff" you need to write in order to get stuff working.
+
+Material Inspector:
