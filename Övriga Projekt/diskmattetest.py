@@ -20,7 +20,7 @@ for i in range(100):
 
 result = []
 for i in A:
-    if i in B and i in C:
+    if i in B and i in C_star:
         result.append(i)
 
 print(result)
