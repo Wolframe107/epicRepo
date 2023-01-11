@@ -15,5 +15,7 @@ public class kth_javap_ord {
         }
         
         System.out.print(output);
+
+        in.close();
     }
 }

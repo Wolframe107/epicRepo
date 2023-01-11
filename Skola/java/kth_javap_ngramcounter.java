@@ -22,5 +22,7 @@ public class kth_javap_ngramcounter {
         
         System.out.print(input.charAt(0));
         System.out.print(checkForUnique(n, input));
+
+        in.close();
     }
 }

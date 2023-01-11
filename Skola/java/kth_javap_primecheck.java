@@ -28,5 +28,7 @@ public class kth_javap_primecheck {
         if (!isPrime) {
             System.out.print(sum);
         }
+
+        in.close();
     }
 }

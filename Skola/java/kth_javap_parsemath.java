@@ -68,5 +68,6 @@ public class kth_javap_parsemath {
         in = new Scanner(System.in);
         String inputString = in.nextLine();
         System.out.print(parseExpression(inputString));
+        in.close();
     }
 }
