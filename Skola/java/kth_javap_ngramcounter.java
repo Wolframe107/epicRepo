@@ -4,9 +4,21 @@ import java.util.Scanner;
 
 public class kth_javap_ngramcounter {
     public static int checkForUnique(int n, String input){
-        String[] unique_parts;
-        String[] already_seen;
+        String[] duplicates_exist;
         // Ha två arrays, en för unika delmängder?
+        
+        // Gå igenom ordet baklänges, chunck för chunck kolla om unikt
+        // 
+
+        for(int i = 0; i < input.length(); i++){
+            for(int j = 0; j < input.length(); j++){
+                if(input.regionMatches(false, i, input, j, n)){
+                    System.out.print("Wow!");
+                }
+            }
+            
+        }
+
         return -1;
     }
     
@@ -19,8 +31,7 @@ public class kth_javap_ngramcounter {
 
         n = in.nextInt();
         input = in.next();
-        
-        System.out.print(input.charAt(0));
+    
         System.out.print(checkForUnique(n, input));
 
         in.close();
